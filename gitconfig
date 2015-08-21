@@ -1,0 +1,24 @@
+[alias]
+	co = checkout
+	b = branch
+	ci = commit
+  cam = commit -a -m
+	s = status
+  r = remote -v
+  pom = push origin master
+  p = push
+  po = push origin
+  pof = push origin -f
+  d = diff
+  rb = rebase
+  rbc = rebase --continue
+  rba = rebase --abort
+  rbum = rebase upstream/master
+  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  lp = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -p
+  fu = fetch upstream
+  rh2 = rebase -i HEAD~2
+  f = fetch
+  ck = cherry-pick
+  ckc = cherry-pick --continue
+  cka = cherry-pick --abort
